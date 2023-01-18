@@ -1,0 +1,162 @@
+body{
+    margin: 0 auto;
+    font-size: 18px;
+    
+}
+.header{
+    width: 100%;
+    align-items: top;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    width: 20%;
+    height: 100vh;
+}
+.main{
+    width: 80%;
+    align-items: top;
+    text-align: center;
+}
+.endbar{
+    height: 50px;
+    position: relative;
+    top: 20%;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 2%;
+}
+ul>img{
+    padding: 2%;
+    width: 25%;
+    border-radius: 50%;
+}
+a:hover{
+    text-decoration: none;
+}
+#topic{
+    width: 50%;
+}
+#info{
+  width: 50%;
+  height: 20vh;
+}
+.info{
+  align-items: top;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info>div{
+  transition-delay: 0.2s;
+  transition-duration: .1s;
+  transition-timing-function: linear;
+  width: 30%;
+  border-radius: 10%;
+  margin: 2%;
+}
+.info>div>img{
+  width: 75%;
+  height: 25vh;
+}
+.cont{
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#me{
+  width: 35%;
+  border-radius: 30vw;
+}
+#dog{
+  width: 35%;
+  height: 28vw;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.cont>button{
+    transition-delay: 0.2s;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+    width: 10%;
+    font: 20px;
+    height: 4vh;
+    border: none;
+    border-radius: 10%;
+}
+.info>div:hover, .cont>button:hover{
+    transform: scale(1.2);
+    transition-delay: 0.2s;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+.checkbox-wrapper-2 .ikxBAC {
+    appearance: none;
+    background-color: #dfe1e4;
+    border-radius: 72px;
+    border-style: none;
+    flex-shrink: 0;
+    height: 20px;
+    margin: 0;
+    position: relative;
+    width: 30px;
+    top: -50px;
+    left: 500px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::before {
+    bottom: -6px;
+    content: "";
+    left: -6px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC,
+  .checkbox-wrapper-2 .ikxBAC::after {
+    transition: all 100ms ease-out;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+  }
+
+  .checkbox-wrapper-2 input[type=checkbox] {
+    cursor: default;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:hover {
+    background-color: #c9cbcd;
+    transition-duration: 0s;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked {
+    background-color: #6e79d6;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked::after {
+    background-color: #fff;
+    left: 13px;
+  }
+
+  .checkbox-wrapper-2 :focus:not(.focus-visible) {
+    outline: 0;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked:hover {
+    background-color: #535db3;
+  }

@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    color: #ecbbaa;
+}
+
+.navbar{
+    color: white;
+    background-color: #ecbbaa;
+}
+a{
+    color: white;
+}
+hr{
+    color: white;
+}
+.info>div{
+    background-color: #ecbbaa;
+    color: white;
+}
+.cont>button{
+    color:white;
+    background-color:#ecbbaa;
+}
+#dog{
+    opacity: 0%;
+}

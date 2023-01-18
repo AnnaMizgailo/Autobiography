@@ -1,0 +1,26 @@
+body{
+    color: white;
+    background-color: #ecbbaa;
+}
+
+.navbar{
+    background-color: white;
+    color: #ecbbaa;
+}
+a{
+    color: #ecbbaa;
+}
+hr{
+    color: #ecbbaa;
+}
+.info>div{
+    color: #ecbbaa;
+    background-color: white;
+}
+.cont>button{
+    background-color:white;
+    color:#ecbbaa;
+}
+#me{
+    opacity: 0%;
+}
